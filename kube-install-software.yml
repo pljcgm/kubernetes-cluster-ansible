@@ -25,6 +25,7 @@
        - docker.io
        - kubelet
        - kubeadm
+       - git
 
    # Docker service is disabled by default
    - name: enable Docker service

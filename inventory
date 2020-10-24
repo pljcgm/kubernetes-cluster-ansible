@@ -1,15 +1,15 @@
 
 [all]
-kubernetes
+kubernetes-main
 kubernetes-node-1
-kubernetes-node-1
+kubernetes-node-2
 
 [all:vars]
 # Ubuntu uses python3 instead of python2, we need to set the interpreter for ansible
 ansible_python_interpreter=/usr/bin/python3
 
 [kube-master]
-kubernetes
+kubernetes-main
 
 [kube-node]
 kubernetes-node-1
